@@ -1,4 +1,4 @@
-### Features
+### Passo a passo do desafio 3
 
 - Criado um terminal dentro do Azure (Cloud Shell)
 - Criar --> Banco de dados do Azure para MySQL, preenchi o nome do servidor (desafio-projeto-dio-c), nome (company) e senha na conta de adm, Segurança -> acesso público e depois criar. Deste modo há há criação da instância.
