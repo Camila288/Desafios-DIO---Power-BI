@@ -4,7 +4,7 @@
 - Criar --> Banco de dados do Azure para MySQL, preenchi o nome do servidor (desafio-projeto-dio-c), nome (company) e senha na conta de adm, Segurança -> acesso público e depois criar. Deste modo há criação da instância.
 -  Foram criadas as tabelas e inseridos os dados no Power Shell pelo mysql -h desafio-projeto-dio-c.mysql.database.azure.com -u company -p e pegamos todos os códigos no github da Juliana.
 -  Depois criamos a regra no Firewall na Azure para acesso ao banco de dados. Não houve muito trabalho quanto a isso.
-- Houve a integração do Power BI com MySQL no Azure. Esta parte me deu bastante trabalho pois não foi explicitado na aula que eu precisava extrair o SSL e eu estava apenas baixando. Quando li a sequência de passos, consegui. Acredito que já tenha havido alguma atualização. Para isso, criamos uma conexão no MySQL, depois preenchemos connection name, username, use SSL,colocamos o download que fizemos do SSL já extraido dentro do MySQL, hostname (do Azure), e fizemos o test connection. 
+- Houve a integração do Power BI com MySQL no Azure. Esta parte me deu bastante trabalho pois não foi explicitado na aula que eu precisava extrair o SSL e eu estava apenas baixando. Quando li a sequência de passos, consegui. Acredito que já tenha havido alguma atualização. Realizei a criação com uma conexão no MySQL, depois preenchi o connection name, username, use SSL,coloquei o download que foi feito do SSL já extraido dentro do MySQL, hostname (do Azure), e foi feito o test connection. 
 - Transformação de dados: 
  Removi as tabelas desnecessárias;
 Separei colunas com dados complexos (coluna address de employee);
